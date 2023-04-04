@@ -6,11 +6,9 @@ import { Footer } from "../footer";
 
 const Layout = () => {
   return (
-    <div className={css.root}>
+    <div>
       <Header />
-      <div className={css.container}>
-        <Outlet />
-      </div>
+      <Outlet />
       <Footer />
     </div>
   );
