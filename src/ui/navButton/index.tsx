@@ -1,10 +1,20 @@
 import React from "react";
+import { useGoTo } from "../../hooks/uiHooks";
+import css from "./styles.module.css";
 
-function NavButton({ content }: any) {
+function NavButton({ content, route }: any) {
   let cont = content;
+  const goTo = useGoTo();
+
+  function HandleRoute() {
+    goTo(route);
+  }
+
   return (
     <>
-      <div>{cont}</div>
+      <div className={css.root} onClick={HandleRoute}>
+        {cont}
+      </div>
     </>
   );
 }

@@ -1,0 +1,11 @@
+.root {
+  background-color: black;
+  color: white;
+  padding: 5px 17px;
+  min-width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
