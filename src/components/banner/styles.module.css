@@ -26,3 +26,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.profile {
+  height: 40vh;
+  width: 40vh;
+  background-color: red;
+  border-radius: 50%;
+  background-image: url("../../../public/yo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

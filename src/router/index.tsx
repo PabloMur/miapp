@@ -12,6 +12,8 @@ function AppRoutes() {
         <Route index element={<Home />} />
         <Route path="stack" element={<TecPage />}></Route>
         <Route path="about" element={<Aboutme />}></Route>
+        <Route path="proyects" element={<Aboutme />}></Route>
+        <Route path="contact" element={<Aboutme />}></Route>
       </Route>
     </Routes>
   );
