@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <div className={css.root}>
-        <NavButton content="About me" route="/about"></NavButton>
+        <NavButton content="Sobre mi" route="/about"></NavButton>
         <NavButton content="Stack" route="/stack"></NavButton>
         <NavButton content="Proyectos" route="/proyects"></NavButton>
         <NavButton content="Contacto" route="/contact"></NavButton>

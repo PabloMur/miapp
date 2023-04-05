@@ -1,7 +1,12 @@
 import React from "react";
+import { AboutContainer } from "../components/about";
 
 const Aboutme = () => {
-  return <>Andate a la concha bien de tu vieja</>;
+  return (
+    <>
+      <AboutContainer />
+    </>
+  );
 };
 
 export { Aboutme };
