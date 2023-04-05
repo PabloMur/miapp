@@ -5,9 +5,10 @@ import { Logo } from "../logo";
 const Header = () => {
   return (
     <>
-      <h1 className={css.root}>
-        <Logo></Logo>Este es el Header de la app
-      </h1>
+      <div className={css.root}>
+        <Logo></Logo>
+        <h3 className={css.headerTitle}>Pablo Murillo</h3>
+      </div>
     </>
   );
 };
