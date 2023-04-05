@@ -11,9 +11,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
 }
 
 .title {
   font-size: 60px;
+}
+
+.bannerContainer {
+  background-color: rgba(25, 0, 255, 0.459);
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
