@@ -1,7 +1,12 @@
 import React from "react";
+import { StackContainer } from "../components/stacContainer";
 
 const TecPage = () => {
-  return <>+</>;
+  return (
+    <>
+      <StackContainer />
+    </>
+  );
 };
 
 export { TecPage };

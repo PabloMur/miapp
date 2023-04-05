@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 87vh;
+  width: 97%;
+  margin: 0 auto 3vh auto;
+  border-radius: 20px;
+  background-image: url("../../../public/stack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

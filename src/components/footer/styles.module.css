@@ -1,4 +1,9 @@
-.root{
-    background: black;
-    height: 40vh;
+.root {
+  background: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
