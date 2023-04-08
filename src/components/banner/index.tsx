@@ -6,7 +6,7 @@ const Banner = () => {
     <div className={css.root}>
       <div className={css.bannerContainer}>
         <div>
-          <h1 className={css.title}>Hola soy Pablo!</h1>
+          <h1 className={css.title}>Hola, soy Pablo!</h1>
           <h3 className={css.paraph}>
             Soy un estudiante de programacion y desarrollo web.
           </h3>

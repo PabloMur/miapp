@@ -6,7 +6,8 @@ const AboutContainer = () => {
     <>
       <div className={css.root}>
         <div className={css.aboutContainer}>
-          <p>
+          <h1 className={css.title}>Acerca de Mi</h1>
+          <p className={css.textContainer}>
             Me considero una persona alegre, aventurera y perseverante. Cuando
             me propongo algo no paro hasta lograrlo. Entusiasta del mundo de la
             tecnologia en general. Soy una persona muy curiosa y me fascina
