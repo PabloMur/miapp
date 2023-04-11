@@ -1,5 +1,7 @@
 import React from "react";
 import css from "./styles.module.css";
+import { GithubLogo } from "ui/github";
+import { LinkedinLogo } from "ui/linkedin";
 
 const Banner = () => {
   return (
@@ -11,6 +13,10 @@ const Banner = () => {
             Estudiante de programacion y desarrollo web.
           </h3>
           <h2 className={css.paraph}>Bienvenido a mi Portafolio.</h2>
+          <div className={css.linksContainer}>
+            <GithubLogo />
+            <LinkedinLogo />
+          </div>
         </div>
         <div className={css.profile}></div>
       </div>

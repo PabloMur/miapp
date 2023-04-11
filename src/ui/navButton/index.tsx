@@ -11,7 +11,7 @@ function NavButton({ content, route, variant }: any) {
     goTo(route);
   }
 
-  if (variant == "root") {
+  if (variant === "root") {
     return (
       <>
         <div className={css.root} onClick={HandleRoute}>
@@ -19,7 +19,7 @@ function NavButton({ content, route, variant }: any) {
         </div>
       </>
     );
-  } else if (variant == "alert") {
+  } else if (variant === "alert") {
     return (
       <>
         <div className={css.alert} onClick={HandleRoute}>
@@ -27,7 +27,7 @@ function NavButton({ content, route, variant }: any) {
         </div>
       </>
     );
-  } else if (variant == "stack") {
+  } else if (variant === "stack") {
     return (
       <>
         <div className={css.stack} onClick={HandleRoute}>
@@ -35,7 +35,7 @@ function NavButton({ content, route, variant }: any) {
         </div>
       </>
     );
-  } else if (variant == "proyects") {
+  } else if (variant === "proyects") {
     return (
       <>
         <div className={css.proyects} onClick={HandleRoute}>

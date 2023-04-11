@@ -7,6 +7,7 @@ const StackContainer = () => {
       <div className={css.root}>
         <h1 className={css.title}>Tecnologias que utilizo:</h1>
       </div>
+      <div className={css.container}>hola</div>
     </>
   );
 };

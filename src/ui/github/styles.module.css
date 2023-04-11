@@ -1,0 +1,9 @@
+.logoContainer {
+  background-color: red;
+  height: 35px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
