@@ -2,6 +2,7 @@ import React from "react";
 import css from "./styles.module.css";
 import { GithubLogo } from "ui/github";
 import { LinkedinLogo } from "ui/linkedin";
+import { JsLogo } from "ui/jsvascript";
 
 const Banner = () => {
   return (
@@ -16,6 +17,7 @@ const Banner = () => {
           <div className={css.linksContainer}>
             <GithubLogo />
             <LinkedinLogo />
+            <JsLogo />
           </div>
         </div>
         <div className={css.profile}></div>

@@ -2,5 +2,7 @@
   background-image: url("../../../public/linkedin.png");
   height: 35px;
   width: 35px;
-  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
