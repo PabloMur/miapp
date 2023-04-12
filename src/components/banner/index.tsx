@@ -17,7 +17,6 @@ const Banner = () => {
           <div className={css.linksContainer}>
             <GithubLogo />
             <LinkedinLogo />
-            <JsLogo />
           </div>
         </div>
         <div className={css.profile}></div>

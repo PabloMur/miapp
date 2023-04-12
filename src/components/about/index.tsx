@@ -8,20 +8,20 @@ const AboutContainer = () => {
         <div className={css.aboutContainer}>
           <h1 className={css.title}>Acerca de Mi</h1>
           <p className={css.textContainer}>
-            Me considero una persona alegre, aventurera y perseverante. Cuando
-            me propongo algo no paro hasta lograrlo. Entusiasta del mundo de la
-            tecnologia en general. Soy una persona muy curiosa y me fascina
-            entender como funcionan las cosas. Suelo enriquecerme de
-            conocimientos de manera autodidacta. Si bien soy bastante
-            autosificiente e independiente, tambien soy muy colavorativo y me
-            gusta ayudar en lo que pueda. Creo fuertemente que trabajar en
-            equipo nos hace llegar a resultados, no solo mejores, sino que
-            tambien mas rapido. Mi filosofia es: " Si una persona pudo, yo
-            tambien. Y si nadie lo hizo, seré el primero". Me encanta el
-            pensamiento logico y la resolucion de problemas. Pero tambien tengo
-            un lado creativo y tridimencional, por lo que no solo resuelvo
-            problemas a travez del codigo sino que tambien me gusta diseñar.
-            Algunas de las cosas que me gustan ja
+            Me presento como una persona perseverante, alegre y aventurera con
+            una gran pasión por la tecnología. Me caracterizo por ser muy
+            curioso y me encanta entender cómo funcionan las cosas.
+            Constantemente me enriquezco de conocimientos de manera autodidacta
+            y me considero muy autosuficiente e independiente, pero también
+            valoro mucho el trabajo colaborativo y la ayuda mutua en equipo.
+            Creo firmemente que trabajar en equipo nos lleva a resultados no
+            solo mejores, sino también más rápidos. Mi filosofía se basa en el
+            desafío constante y el pensamiento lógico para la resolución de
+            problemas. Además, tengo un lado creativo y tridimensional que me
+            permite no solo solucionar problemas a través del código, sino
+            también diseñar. Siempre estoy dispuesto a aprender y enfrentar
+            nuevos retos para seguir creciendo profesionalmente en el mundo de
+            la programación. ("Este texto fue optimizado con chatGPT.")
           </p>
         </div>
       </div>
