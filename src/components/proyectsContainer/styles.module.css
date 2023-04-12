@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 87vh;
+  height: 20vh;
   width: 97%;
   margin: 0 auto 3vh auto;
   border-radius: 20px;
@@ -11,4 +11,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.proyectsContainer {
+  min-height: 65vh;
+  max-width: 97%;
+  margin: 0 auto 3vh auto;
+
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }

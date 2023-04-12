@@ -1,5 +1,5 @@
 .root {
-  background-color: white;
+  background-color: #d0bbff00;
   margin: 0;
   padding: 0;
   height: 10vh;
@@ -16,7 +16,12 @@
 }
 
 .logoContainer {
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 30px;
+  padding: 0 7px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  background-color: white;
 }
