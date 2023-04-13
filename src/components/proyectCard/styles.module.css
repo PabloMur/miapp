@@ -1,13 +1,22 @@
 .root {
   min-height: 40vh;
   width: 300px;
-  background-color: red;
   margin: 20px;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .imgContainer {
   height: 25vh;
-  background-color: blue;
+  width: 100%;
+}
+
+.cardBody {
+  height: 100%;
+  padding: 10px;
+}
+
+.cardBody:hover {
+  background-color: palevioletred;
 }
