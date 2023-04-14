@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 15vh;
   width: 97%;
   margin: 0 auto 3vh auto;
   border-radius: 20px;
@@ -18,11 +18,10 @@
   min-height: 65vh;
   max-width: 97%;
   margin: 0 auto 3vh auto;
-  background: linear-gradient(
-    39deg,
-    rgb(253, 213, 232) 0%,
-    rgb(248, 204, 165) 100%
-  );
+  background-image: url("../../../public/proyects.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 20px;
   width: auto;
   display: flex;

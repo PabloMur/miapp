@@ -4,8 +4,12 @@
   margin: 20px;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  background-color: #eefff9;
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgba(255, 255, 255, 0.26);
 }
 
 .imgContainer {
@@ -18,7 +22,7 @@
   padding: 10px;
 }
 
-.cardBody:hover {
+.root:hover {
   background-color: rgb(255, 244, 248);
   transition: background-color 0.6s ease;
 }
