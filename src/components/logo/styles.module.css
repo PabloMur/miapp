@@ -3,7 +3,25 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+}
+
+.headerTitle {
+  color: black;
+  margin-left: 5px;
+  font-size: 23px;
+}
+
+.logoContainer {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0 7px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  background-color: white;
+  cursor: pointer;
 }

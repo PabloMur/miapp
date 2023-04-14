@@ -13,11 +13,13 @@ const Logo = () => {
       transition={{ duration: 0.5 }}
     >
       <div
+        className={css.logoContainer}
         onClick={() => {
           goTo("/");
         }}
       >
         <div className={css.root}></div>
+        <h5 className={css.headerTitle}>{"Pablo Murillo"}</h5>
       </div>
     </motion.div>
   );

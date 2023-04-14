@@ -11,15 +11,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .proyectsContainer {
   min-height: 65vh;
   max-width: 97%;
   margin: 0 auto 3vh auto;
-
+  background: linear-gradient(
+    39deg,
+    rgb(253, 213, 232) 0%,
+    rgb(248, 204, 165) 100%
+  );
+  border-radius: 20px;
   width: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }

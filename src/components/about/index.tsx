@@ -3,7 +3,7 @@ import css from "./styles.module.css";
 
 const AboutContainer = () => {
   return (
-    <>
+    <div className={css.container}>
       <div className={css.root}>
         <div className={css.aboutContainer}>
           <h1 className={css.title}>Acerca de Mi</h1>
@@ -24,7 +24,7 @@ const AboutContainer = () => {
         para seguir creciendo profesionalmente en el mundo de la programación.
         ("Este texto fue optimizado con chatGPT.")
       </p>
-    </>
+    </div>
   );
 };
 

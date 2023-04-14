@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .root {
   height: 20vh;
   width: 97%;
@@ -21,11 +28,14 @@
 }
 
 .textContainer {
-  width: 80%;
+  width: 97%;
+  height: 60vh;
+  margin: 0 auto 3vh auto;
   min-height: 200px;
   padding: 0;
   font-size: 22px;
-  background-color: rgba(255, 255, 255, 0.733);
+  background-color: rgba(182, 240, 255, 0.87);
   padding: 20px;
   border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
