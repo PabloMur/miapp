@@ -16,7 +16,7 @@ const ProyectCard = ({
       <div className={css.cardBody}>
         <h3>{title}</h3>
         <p>{description}</p>
-        <div className="card-links">
+        <div className={css.cardLinks}>
           <GitHubButton githubLink={githubLink} />
           <DeployButton deployLink={deployLink} />
         </div>

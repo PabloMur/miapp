@@ -1,14 +1,11 @@
-.root {
-  background-color: black;
-  color: white;
+.deployButton {
+  border: none;
+  background-color: rgba(190, 122, 253, 0.788);
+  color: black;
   border: none;
   padding: 8px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-a {
-  text-decoration: none;
 }
