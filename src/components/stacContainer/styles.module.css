@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 15vh;
   width: 97%;
   margin: 0 auto 3vh auto;
   border-radius: 20px;
@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .container {

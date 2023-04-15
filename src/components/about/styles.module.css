@@ -6,7 +6,7 @@
 }
 
 .root {
-  height: 20vh;
+  height: 15vh;
   width: 97%;
   margin: 0 auto 3vh auto;
   border-radius: 20px;
@@ -28,13 +28,12 @@
 }
 
 .textContainer {
-  color: white;
   width: 97%;
   height: 60vh;
   margin: 0 auto 3vh auto;
   min-height: 200px;
   padding: 0;
-  font-size: 22px;
+  font-size: 18px;
   padding: 20px;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.31);
