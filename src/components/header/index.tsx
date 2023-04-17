@@ -2,6 +2,7 @@ import React from "react";
 import css from "./styles.module.css";
 import { Logo } from "../logo";
 import { Nav } from "../nav";
+import { MenuButton } from "ui/menuButton";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         </div>
         <div>
           <Nav></Nav>
+          <MenuButton />
         </div>
       </div>
     </>

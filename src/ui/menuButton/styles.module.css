@@ -1,21 +1,27 @@
 .root {
-  height: 8vh;
-  min-width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 5px;
-  padding: 10px;
+  height: 45px;
+  width: 45px;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.555);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border: 1px solid rgba(255, 255, 255, 0.589);
+  display: none;
 }
 
 @media (max-width: 767px) {
   .root {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+}
+
+.line {
+  height: 1px;
+  width: 60%;
+  background-color: white;
+  margin: 3px auto;
 }

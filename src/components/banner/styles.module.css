@@ -8,6 +8,7 @@
   margin: 0 auto 3vh auto;
   border-radius: 25px;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  overflow: hidden;
 }
 
 .title {
@@ -39,7 +40,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  border: 6px black solid;
+  border: 2px white solid;
+}
+@media (max-width: 767px) {
+  .profile {
+    display: none;
+  }
 }
 
 .paraph {
