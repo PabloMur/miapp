@@ -3,13 +3,9 @@ import css from "./styles.module.css";
 
 const AboutContainer = () => {
   return (
-    <div className={css.container}>
-      <div className={css.root}>
-        <div className={css.aboutContainer}>
-          <h1 className={css.title}>Acerca de Mi</h1>
-        </div>
-      </div>
-      <p className={css.textContainer}>
+    <div className={css.textContainer}>
+      <h1 className={css.title}>Acerca de Mi</h1>
+      <p className={css.text}>
         Me presento como una persona perseverante, alegre y aventurera con una
         gran pasión por la tecnología. Me caracterizo por ser muy curioso y me
         encanta entender cómo funcionan las cosas. Constantemente me enriquezco
