@@ -18,14 +18,12 @@
   min-height: 65vh;
   max-width: 97%;
   margin: 0 auto 3vh auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 20px;
   width: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
   background: rgba(255, 255, 255, 0.31);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.5px);
