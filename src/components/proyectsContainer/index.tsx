@@ -5,6 +5,7 @@ import mod8 from "../../img/mod8.png";
 import mod7 from "../../img/mod7.png";
 import mod5 from "../../img/mod5.png";
 import mod4 from "../../img/mod4.png";
+import mod5v2 from "../../img/pptReact.png";
 
 import { motion } from "framer-motion";
 
@@ -41,6 +42,13 @@ const ProyectsContainer = () => {
           githubLink="https://github.com/PabloMur/desafio-m5"
           deployLink="https://pablomur.github.io/desafio-m5"
           description="Single page application que nos permite jugar al clasico Piedra Papel o Tijeras. Este proyecto cuenta con los conceptos de estado, router y componentes. Todo hecho con JS puro."
+        />
+        <ProyectCard
+          title="RPS Game - modulo 5 v2"
+          image={mod5v2}
+          githubLink="https://https://github.com/PabloMur/ppt-react"
+          deployLink="https://ppt-react-lemon.vercel.app/"
+          description="Reversion del juego hecho en el modulo 5. Esta vez inplementando react como tecnologia de construccion de componentes. Ademas, utilizando tambien recoil para el manejo del estado."
         />
         <ProyectCard
           title="Portafolio - modulo 4"
