@@ -1,21 +1,14 @@
 .root {
-  background-color: #d0bbff00;
-  margin: 3vh auto;
-  height: 12vh;
+  background-color: white;
+  margin: 2vh auto;
+  height: 8vh;
   width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.486);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border: 1px solid rgba(255, 255, 255, 0.589);
-}
-
-@media (max-width: 767px) {
-  .root {
-  }
 }
