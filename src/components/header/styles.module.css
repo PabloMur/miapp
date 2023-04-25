@@ -1,14 +1,15 @@
 .root {
   background-color: white;
-  margin: 2vh auto;
-  height: 8vh;
-  width: 97%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 2vh auto;
+  padding: 15px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 25px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
-  backdrop-filter: blur(11.5px);
-  -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(255, 255, 255, 0.589);
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  z-index: 2;
 }
