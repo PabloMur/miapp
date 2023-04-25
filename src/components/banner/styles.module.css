@@ -9,10 +9,10 @@
   border-radius: 25px;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   overflow: hidden;
-  background-image: url("../../../public/banner.jpg");
-  background-size: cover;
+  background-image: url("../../../public/otro.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -28,10 +28,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   backdrop-filter: blur(25.5px);
   -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(255, 255, 255, 0.589);
 }
 
 .profile {
