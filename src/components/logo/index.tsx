@@ -19,7 +19,7 @@ const Logo = () => {
         }}
       >
         <div className={css.root}></div>
-        <h5 className={css.headerTitle}>{"Pablo Murillo"}</h5>
+        <h5 className={css.headerTitle}>PABLO MURILLO</h5>
       </div>
     </motion.div>
   );

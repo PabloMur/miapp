@@ -14,7 +14,6 @@ const Banner = () => {
           <h3 className={css.paraph}>
             Estudiante de programacion y desarrollo web.
           </h3>
-          <h2 className={css.paraph}>Bienvenido a mi Portafolio.</h2>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
