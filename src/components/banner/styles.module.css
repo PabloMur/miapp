@@ -3,13 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 85vh;
-  width: 97%;
-  margin: 13vh auto 3vh auto;
-  border-radius: 25px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
+  height: 90vh;
+  width: 100%;
+  margin: 10vh auto 3vh auto;
   overflow: hidden;
-  background-image: url("../../../public/otro.jpg");
+  background-image: url("../../../public/pexels-luis-gomes-546819.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,10 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  backdrop-filter: blur(25.5px);
-  -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(255, 255, 255, 0.589);
 }
 
 .profile {
