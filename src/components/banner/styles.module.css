@@ -7,7 +7,7 @@
   width: 100%;
   margin-top: 10vh;
   overflow: hidden;
-  background-image: url("../../../public/pexels-luis-gomes-546819.jpg");
+  background-image: url("../../../public/pexels-bruno-thethe-1910230.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,6 +23,7 @@
   margin-top: 3vh;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   border: 2px white solid;
+  backdrop-filter: 25px;
 }
 
 .bannerContainer {
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(125, 149, 255, 0.233);
+  background-color: rgba(21, 28, 61, 0.63);
 }
 
 .profile {

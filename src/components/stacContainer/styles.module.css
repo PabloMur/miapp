@@ -15,7 +15,7 @@
 }
 
 .container {
-  min-height: 64vh;
+  min-height: 37vh;
   width: 100%;
   width: 97%;
   border-radius: 20px;
@@ -28,4 +28,8 @@
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border: 1px solid rgba(255, 255, 255, 0.26);
+  background-image: url("../../../public/stack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
