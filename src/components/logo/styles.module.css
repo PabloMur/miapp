@@ -9,9 +9,10 @@
 }
 
 .headerTitle {
-  color: black;
+  color: white;
   margin-left: 5px;
   font-size: 23px;
+  font-family: "Roboto", sans-serif;
 }
 
 .logoContainer {
