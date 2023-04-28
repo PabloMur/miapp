@@ -25,13 +25,6 @@ const Banner = () => {
             </div>
           </motion.div>
         </div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <div className={css.profile}></div>
-        </motion.div>
       </div>
     </div>
   );
