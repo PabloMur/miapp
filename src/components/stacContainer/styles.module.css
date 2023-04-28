@@ -15,11 +15,10 @@
 }
 
 .container {
-  min-height: 37vh;
+  min-height: 20vh;
   width: 100%;
   width: 97%;
-  border-radius: 20px;
-  margin: 0 auto 3vh auto;
+  margin: 10vh auto 3vh auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,4 +31,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.stack {
+  min-height: 68vh;
+  background-color: black;
+  width: 97%;
+  margin: 0 auto;
+  border: 1px solid white;
 }

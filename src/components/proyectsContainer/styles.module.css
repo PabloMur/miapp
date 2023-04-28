@@ -6,12 +6,23 @@
   height: 15vh;
   width: 97%;
   margin: 0 auto 3vh auto;
-  border-radius: 20px;
   background: rgba(255, 255, 255, 0.418);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border: 1px solid rgba(255, 255, 255, 0.589);
+  min-height: 20vh;
+  width: 97%;
+  margin: 10vh auto 3vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.31);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  background-image: url("../../../public/proyects.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .proyectsContainer {
