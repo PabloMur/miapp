@@ -8,13 +8,14 @@
 .root {
   height: 15vh;
   width: 97%;
-  margin: 12vh auto 3vh auto;
-  border-radius: 20px;
+  margin: 10vh auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../../../public/about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .aboutContainer {
@@ -29,17 +30,20 @@
 
 .textContainer {
   width: 97%;
-  height: 86vh;
-  margin: 12vh auto 3vh auto;
+  height: 76vh;
+  margin: 0 auto 3vh auto;
   min-height: 200px;
   padding: 0;
   font-size: 18px;
   padding: 20px;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.31);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(11.5px);
-  -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(255, 255, 255, 0.26);
+  background-color: #1d2226;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  width: 60%;
+  font-size: 20px;
 }
