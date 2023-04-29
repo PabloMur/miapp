@@ -1,11 +1,13 @@
 .root {
-  height: 8vh;
-  min-width: 400px;
+  height: 88vh;
+  min-width: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   gap: 5px;
   padding: 10px;
+  background-color: rgb(63, 119, 119);
 }
 
 @media (max-width: 767px) {

@@ -1,13 +1,13 @@
 .root {
   background-color: #1d2226;
   position: fixed;
+  bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
-  margin: 0 auto 2vh auto;
+  width: 300px;
   padding: 15px;
-  height: 10vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.438);
