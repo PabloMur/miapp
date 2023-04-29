@@ -22,15 +22,9 @@
 
 .title {
   font-size: 50px;
+  font-family: "Oswald";
   margin: 0;
-  color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.733);
-  padding: 10px;
-  border-radius: 20px;
-  margin-top: 3vh;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  border: 2px white solid;
-  backdrop-filter: 25px;
+  color: white;
 }
 
 .bannerContainer {
@@ -39,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color: rgba(21, 28, 61, 0.63);*/
+  background-color: rgba(0, 0, 0, 0.712);
 }
 
 .profile {
@@ -54,23 +48,6 @@
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   border: 2px white solid;
 }
-@media (max-width: 767px) {
-  .profile {
-    display: none;
-  }
-}
-
-.paraph {
-  color: black;
-  padding: 0;
-  margin: 0;
-  padding: 10px;
-  border-radius: 20px;
-  margin-top: 3vh;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  border: 2px white solid;
-  background-color: rgba(255, 255, 255, 0.733);
-}
 
 .textContainer {
   display: flex;
@@ -81,14 +58,10 @@
 .linksContainer {
   min-height: 6vh;
   gap: 10px;
-  background-color: rgba(255, 255, 255, 0.733);
   width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
   border-radius: 20px;
-  margin-top: 3vh;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  border: 2px white solid;
 }

@@ -10,10 +10,7 @@ const Banner = () => {
     <div className={css.root}>
       <div className={css.bannerContainer}>
         <div className={css.textContainer}>
-          <h1 className={css.title}>Hola, soy Pablo!</h1>
-          <h3 className={css.paraph}>
-            Estudiante de programacion y desarrollo web.
-          </h3>
+          <h1 className={css.title}>Fullstack Web Developer</h1>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
