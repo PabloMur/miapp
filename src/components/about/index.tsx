@@ -1,12 +1,20 @@
 import React from "react";
 import css from "./styles.module.css";
+import { motion } from "framer-motion";
 
 const AboutContainer = () => {
   return (
     <>
-      <div className={css.root}>
-        <h1 className={css.title}>Acerca de Mi</h1>
-      </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.7 }}
+      >
+        <div className={css.root}>
+          <h1 className={css.title}>Acerca de Mi</h1>
+        </div>
+      </motion.div>
+
       <div className={css.textContainer}>
         <p className={css.text}>
           Me presento como una persona perseverante, alegre y aventurera con una
