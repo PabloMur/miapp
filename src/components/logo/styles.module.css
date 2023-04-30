@@ -6,11 +6,10 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .headerTitle {
-  color: white;
   margin-left: 5px;
   font-size: 23px;
   font-family: "Oswald", sans-serif;
