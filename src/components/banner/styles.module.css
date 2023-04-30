@@ -65,3 +65,9 @@
   padding: 10px;
   border-radius: 20px;
 }
+
+video {
+  width: 100%;
+  height: auto;
+  z-index: 4;
+}
