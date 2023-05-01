@@ -21,7 +21,7 @@
 }
 
 .title {
-  font-size: 9rem;
+  font-size: 8rem;
   font-family: "Oswald";
   margin: 0;
   color: greenyellow;
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.712);
+  background-color: rgb(68 0 88 / 83%);
 }
 
 .profile {

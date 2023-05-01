@@ -10,7 +10,7 @@ const Banner = () => {
     <div className={css.root}>
       <div className={css.bannerContainer}>
         <div className={css.textContainer}>
-          <h1 className={css.title}>Fullstack Developer</h1>
+          <h1 className={css.title}>{"<Fullstack Developer/>"}</h1>
         </div>
       </div>
     </div>
