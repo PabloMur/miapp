@@ -11,9 +11,16 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  .root {
+    margin-top: 10vh;
+    width: 100%;
+  }
+}
+
 .proyectsContainer {
   min-height: 65vh;
-  max-width: 80%;
+  width: 80%;
   margin: 0 0 0 auto;
   width: auto;
   display: flex;
@@ -21,4 +28,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   background: #1d2226;
+}
+
+@media screen and (max-width: 600px) {
+  .proyectsContainer {
+    width: 100%;
+    justify-content: center;
+  }
 }
