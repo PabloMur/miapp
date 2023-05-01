@@ -27,6 +27,14 @@
   color: greenyellow;
 }
 
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 4rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .bannerContainer {
   height: 100%;
   width: 100%;
