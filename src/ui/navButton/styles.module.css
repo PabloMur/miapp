@@ -1,8 +1,8 @@
 .root {
   width: 100%;
   height: 100%;
-  background-color: black;
-  color: white;
+  background-color: purple;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,5 +13,19 @@
 }
 
 .root:hover {
-  background-color: #1d2226;
+  background-color: white;
+  color: black;
+}
+
+.icon {
+  height: 30px;
+  width: auto;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
 }
