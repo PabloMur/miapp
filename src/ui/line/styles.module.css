@@ -1,22 +1,24 @@
-.line {
-  height: 0.7vh;
-  width: 100%;
-  background-color: var(--clarito);
-  border-radius: 3px;
-}
-
 .leftLine {
-  height: 0.7vh;
+  height: 2px;
   width: 100%;
-  background-color: var(--clarito);
-  border-radius: 3px;
+  background-color: black;
   transform: rotate(45deg);
   position: absolute;
+  animation: lower 0.3s linear;
 }
 .rightLine {
-  height: 0.7vh;
+  height: 2px;
   width: 100%;
-  background-color: var(--clarito);
-  border-radius: 3px;
+  background-color: black;
   transform: rotate(-45deg);
+  animation: lower 0.3s linear;
+}
+
+@keyframes lower {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -1,10 +1,6 @@
 import React from "react";
 import css from "./styles.module.css";
 
-const Line = () => {
-  return <div className={css.line}></div>;
-};
-
 export const LeftLine = () => {
   return <div className={css.leftLine}></div>;
 };

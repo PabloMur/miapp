@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./styles.module.css";
 import { useDesplegarMenu } from "../../hooks/uiHooks";
 import { useRecoilValue } from "recoil";
 import { desplegarMenuAtom } from "atoms/atoms";
-import { LeftLine, RightLine } from "ui/line";
+import { LeftLine, RightLine } from "../line";
 
-const InactiveMenuButton = () => {
+const Circle = () => {
   return (
     <div className={css.root}>
       <div className={css.line}></div>
@@ -27,12 +27,17 @@ const Cross = () => {
 const MenuButton = () => {
   const menuDesplegadoValue = useRecoilValue(desplegarMenuAtom);
   const menuValueSetter = useDesplegarMenu();
+
+  useEffect(() => {
+    console.log(menuDesplegadoValue);
+  }, []);
+
   const handleClick = () => {
     menuValueSetter(!menuDesplegadoValue);
   };
   return (
     <div onClick={handleClick}>
-      {menuDesplegadoValue ? <InactiveMenuButton /> : <Cross />}
+      {menuDesplegadoValue ? <Cross /> : <Circle />}
     </div>
   );
 };

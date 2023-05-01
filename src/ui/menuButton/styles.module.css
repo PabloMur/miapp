@@ -6,7 +6,7 @@
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .root {
     display: flex;
     flex-direction: column;
@@ -20,4 +20,13 @@
   width: 60%;
   background-color: black;
   margin: 3px auto;
+}
+
+.crosslineContainer {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
