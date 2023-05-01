@@ -1,0 +1,30 @@
+.root {
+  height: 85vh;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  animation: showup ease 0.3s;
+}
+
+@media (max-width: 767px) {
+  .root {
+    display: flex;
+  }
+}
+
+@keyframes showup {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

@@ -28,10 +28,6 @@ const MenuButton = () => {
   const menuDesplegadoValue = useRecoilValue(desplegarMenuAtom);
   const menuValueSetter = useDesplegarMenu();
 
-  useEffect(() => {
-    console.log(menuDesplegadoValue);
-  }, []);
-
   const handleClick = () => {
     menuValueSetter(!menuDesplegadoValue);
   };
