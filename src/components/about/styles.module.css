@@ -18,6 +18,13 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  .root {
+    width: 100%;
+    margin-top: 10vh;
+  }
+}
+
 .aboutContainer {
   height: 100%;
   width: 100%;
@@ -30,7 +37,7 @@
 
 .textContainer {
   width: 80%;
-  height: 85vh;
+  min-height: 85vh;
   margin: 0 0 0 auto;
   min-height: 200px;
   padding: 0;
@@ -40,6 +47,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .textContainer {
+    width: 100%;
+  }
 }
 
 .text {
