@@ -3,11 +3,12 @@ import css from "./styles.module.css";
 
 const ContactContainer = () => {
   return (
-    <div className={css.root}>
-      <div className={css.contactContainer}>
+    <>
+      <div className={css.root}>
         <h1>Contacto</h1>
       </div>
-    </div>
+      <div className={css.contactContainer}></div>
+    </>
   );
 };
 

@@ -3,10 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 37vh;
-  width: 97%;
-  margin: 0 auto 3vh auto;
-  border-radius: 20px;
+  height: 15vh;
+  width: 80%;
+  margin: 0 0 0 auto;
   background-image: url("../../../public/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;

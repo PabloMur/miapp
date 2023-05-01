@@ -11,9 +11,6 @@ const Banner = () => {
       <div className={css.bannerContainer}>
         <div className={css.textContainer}>
           <h1 className={css.title}>Fullstack Web Developer</h1>
-          <video autoPlay muted loop>
-            <source src="../../video/video.mp4" type="video/mp4" />
-          </video>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
