@@ -20,7 +20,6 @@
 
 .contactContainer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 85vh;
@@ -29,10 +28,41 @@
   background-color: #1d2226;
 }
 
+.links {
+  height: 85vh;
+  width: 50%;
+}
+
+.form {
+  height: 85vh;
+  width: 50%;
+  /*background-color: black;*/
+  background-color: #77c9df;
+  padding: 20px;
+}
+
+.formTitle {
+  color: black;
+}
+
 @media screen and (max-width: 600px) {
   .contactContainer {
     width: 100%;
     min-height: 75vh;
     margin: 0 auto;
   }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+  padding: 2rem;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 1rem;
 }

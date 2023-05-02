@@ -10,10 +10,10 @@ const Header = () => {
     <>
       <div className={css.root}>
         <div className={css.logoContainer}>
-          <Logo></Logo>
+          <Logo />
         </div>
         <div>
-          <Nav></Nav>
+          <Nav />
           <MenuButton />
           <NavMobile />
         </div>
