@@ -23,8 +23,14 @@
 }
 
 .container {
-  width: 30%;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 30%;
+  }
 }
