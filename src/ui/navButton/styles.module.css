@@ -23,9 +23,8 @@
 }
 
 .container {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
 }
