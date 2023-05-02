@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import css from "./styles.module.css";
 import { NavButton } from "../../ui/navButton";
 import person from "../../img/user.png";
@@ -21,7 +21,6 @@ const NavMobile = () => {
             variant="root"
             icon={person}
           ></NavButton>
-
           <NavButton
             content="Stack"
             route="/stack"
