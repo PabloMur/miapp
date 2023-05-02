@@ -1,5 +1,5 @@
 import React from "react";
-import css from "styles.module.css";
+import css from "./styles.module.css";
 import { Logo } from "components/logo";
 import { Nav } from "components/nav";
 import { MenuButton } from "ui/menuButton";

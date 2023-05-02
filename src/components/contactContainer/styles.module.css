@@ -11,3 +11,28 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 600px) {
+  .root {
+    width: 100%;
+    margin: 10vh auto 0 auto;
+  }
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  width: 80%;
+  margin: 0 0 0 auto;
+  background-color: #1d2226;
+}
+
+@media screen and (max-width: 600px) {
+  .contactContainer {
+    width: 100%;
+    min-height: 75vh;
+    margin: 0 auto;
+  }
+}
