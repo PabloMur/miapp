@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgb(68 0 88 / 83%), black);
+  background-image: linear-gradient(rgb(68 0 88 / 83%), rgba(0, 0, 0, 0.692));
 }
 
 .profile {
