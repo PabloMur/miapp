@@ -10,7 +10,6 @@ export const APISendEmail = async (email: any) => {
     });
     const response = await fetching.json();
     console.log(response);
-
     return response;
   } catch (error) {
     console.error(error);
