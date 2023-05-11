@@ -1,16 +1,12 @@
-export const APISendEmail = async () => {
+export const APISendEmail = async (email: any) => {
   try {
     const fetching = await fetch("https://send2.vercel.app/api/send", {
       method: "POST",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        message: "hola",
-        name: "Poli",
-        email: "polillomurillo@gmail.com",
-        subject: "test",
-      }),
+      body: JSON.stringify(email),
     });
     const response = await fetching.json();
     console.log(response);
