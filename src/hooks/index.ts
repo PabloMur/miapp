@@ -1,8 +1,8 @@
 import { APISendEmail } from "lib/apiCalls";
 
 export const useSendEmail = () => {
-  const emailSender = (email: object) => {
-    return APISendEmail(email);
+  const emailSender = () => {
+    return APISendEmail();
   };
   return emailSender;
 };

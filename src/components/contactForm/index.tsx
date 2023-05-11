@@ -19,7 +19,7 @@ const ContactForm = () => {
     console.log("Message:", message);
     console.log("Subject:", subject);
     //emailSender({ name, email, subject, message });
-    await APISendEmail({ name, email, subject, message });
+    await APISendEmail();
     // Aquí podrías agregar tu lógica para enviar el formulario a un servidor o realizar otra acción con la información ingresada.
   };
 
