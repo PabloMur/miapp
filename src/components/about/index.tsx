@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./styles.module.css";
 import { motion } from "framer-motion";
+
+// const getStaticProps = async () => {
+//   const url = "https://jsonplaceholder.typicode.com/todos/1";
+//   const data = await fetch(url);
+//   const googleData = await data.json();
+//   return googleData;
+// };
+// const test = async () => {
+//   let aux;
+//   aux = await getStaticProps();
+//   console.log(JSON.stringify(aux) + "test");
+// };
+// useEffect(() => {
+//   test();
+// }, []);
 
 const AboutContainer = () => {
   return (
