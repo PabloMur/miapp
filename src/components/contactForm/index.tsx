@@ -2,25 +2,17 @@ import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./styles.module.css";
-import { useSendEmail } from "hooks";
-import { APISendEmail } from "lib/apiCalls";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [subject, setSubject] = useState("PORTAFOLIO");
-  const emailSender = useSendEmail();
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", message);
-    console.log("Subject:", subject);
-    //emailSender({ name, email, subject, message });
-    await APISendEmail({ name, email, subject, message });
-    // Aquí podrías agregar tu lógica para enviar el formulario a un servidor o realizar otra acción con la información ingresada.
+    // await emailSender();
+    console.log("hol");
   };
 
   return (
