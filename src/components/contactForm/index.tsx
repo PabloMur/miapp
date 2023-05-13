@@ -40,6 +40,9 @@ const ContactForm = () => {
       subject,
       name,
     });
+    setEmail("");
+    setName("");
+    setMessage("");
     alert("Mensaje Enviado Correctamente");
   };
 
