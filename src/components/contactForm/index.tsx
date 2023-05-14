@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./styles.module.css";
@@ -6,49 +6,24 @@ import {
   contactFormEmailAtom,
   contactFormMessageAtom,
   contactFormNameAtom,
-  contactFormSubjectAtom,
 } from "atoms/atoms";
 import { useRecoilState } from "recoil";
-
-//
-
-const sendTestRequest = async (msj: any) => {
-  const url = "https://send2.vercel.app/api/hello";
-  const data = await fetch(url, {
-    method: "POST",
-    mode: "cors",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(msj),
-  });
-  const googleData = await data.json();
-  return googleData;
-};
-//
+import { useSendEmail } from "hooks/uiHooks";
 
 const ContactForm = () => {
+  const emailSender = useSendEmail();
+
   const [name, setName] = useRecoilState(contactFormNameAtom);
   const [email, setEmail] = useRecoilState(contactFormEmailAtom);
   const [message, setMessage] = useRecoilState(contactFormMessageAtom);
-  const [subject, setSubject] = useRecoilState(contactFormSubjectAtom);
 
-  const test = async () => {
-    await sendTestRequest({
-      email,
-      message,
-      subject,
-      name,
-    });
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+    await emailSender();
     setEmail("");
     setName("");
     setMessage("");
     alert("Mensaje Enviado Correctamente");
-  };
-
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    await test();
   };
 
   return (
