@@ -6,6 +6,7 @@ import mod7 from "../../img/mod7.png";
 import mod5 from "../../img/mod5.png";
 import mod4 from "../../img/mod4.png";
 import mod5v2 from "../../img/pptReact.png";
+import weather from "../../img/weather.png";
 
 import { motion } from "framer-motion";
 
@@ -22,6 +23,13 @@ const ProyectsContainer = () => {
         </motion.div>
       </div>
       <div className={css.proyectsContainer}>
+        <ProyectCard
+          title="Weather App"
+          image={weather}
+          githubLink="https://github.com/PabloMur/weatherapp"
+          deployLink="https://weatherapp-three-omega.vercel.app/"
+          description="App de clima en tiempo real. En este caso desarrolle una app para uso personal y tambien para seguir practicando habilidades de FrontEnd."
+        />
         <ProyectCard
           title="Pet Finder - modulo 8"
           image={mod8}
