@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import css from "./styles.module.css";
 import { motion } from "framer-motion";
 
