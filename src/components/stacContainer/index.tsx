@@ -28,7 +28,6 @@ const StackContainer = () => {
         <StackMedall name="NextJS"></StackMedall>
         <StackMedall name="Vercel"></StackMedall>
         <StackMedall name="Heroku"></StackMedall>
-        <StackMedall name="CustomElements"></StackMedall>
       </div>
     </>
   );
