@@ -3,43 +3,47 @@ import css from "./styles.module.css";
 import { motion } from "framer-motion";
 
 const AboutContainer = () => {
-  return (
-    <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.7 }}
-      >
-        <div className={css.root}>
-          <h1 className={css.title}>Acerca de Mi</h1>
-        </div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.3 }}
-      >
-        <div className={css.textContainer}>
-          <p className={css.text}>
-            Me presento como una persona perseverante, alegre y aventurera con
-            una gran pasión por la tecnología. Me caracterizo por ser muy
-            curioso y me encanta entender cómo funcionan las cosas.
-            Constantemente me enriquezco de conocimientos de manera autodidacta
-            y me considero muy autosuficiente e independiente, pero también
-            valoro mucho el trabajo colaborativo y la ayuda mutua en equipo.
-            Creo firmemente que trabajar en equipo nos lleva a resultados no
-            solo mejores, sino también más rápidos. Mi filosofía se basa en el
-            desafío constante y el pensamiento lógico para la resolución de
-            problemas. Además, tengo un lado creativo y tridimensional que me
-            permite no solo solucionar problemas a través del código, sino
-            también diseñar. Siempre estoy dispuesto a aprender y enfrentar
-            nuevos retos para seguir creciendo profesionalmente en el mundo de
-            la programación. ("Este texto fue optimizado con ChatGPT.")
-          </p>
-        </div>
-      </motion.div>
-    </>
-  );
+    return (
+        <>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.7 }}
+            >
+                <div className={css.root}>
+                    <h1>Acerca de Mi</h1>
+                </div>
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1.3 }}
+            >
+                <div className={css.textContainer}>
+                    <p className={css.text}>
+                        Soy un programador apasionado por la tecnología. Me
+                        encanta aprender cosas nuevas y siempre estoy buscando
+                        nuevos desafíos.
+                        <br />
+                        Tengo un espíritu curioso y me gusta entender cómo
+                        funcionan las cosas. Soy autodidacta y siempre estoy
+                        buscando formas de mejorar mis habilidades.
+                        <br />
+                        También soy un buen trabajador en equipo. Puedo trabajar
+                        de forma independiente, pero también soy capaz de
+                        colaborar con otros para lograr objetivos comunes. Soy
+                        resolutivo y siempre estoy buscando soluciones a los
+                        problemas.
+                        <br />
+                        Además, tengo un lado creativo. Me gusta pensar fuera de
+                        la caja y encontrar nuevas soluciones a los problemas.
+                        Siempre estoy dispuesto a aprender cosas nuevas y
+                        mejorar mis habilidades.
+                    </p>
+                </div>
+            </motion.div>
+        </>
+    );
 };
 
 export { AboutContainer };

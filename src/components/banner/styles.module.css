@@ -1,75 +1,76 @@
 .root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  width: 80%;
-  margin: 0 0 0 auto;
-  overflow: hidden;
-  background-image: url("../../../public/code-dos.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@media screen and (max-width: 600px) {
-  .root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-  }
+    width: 80%;
+    margin: 0 0 0 auto;
+    overflow: hidden;
+    background-image: url("../../../public/code-dos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .root {
+        height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 .title {
-  font-size: 8rem;
-  font-family: "Oswald";
-  margin: 0;
-  color: greenyellow;
+    font-size: 7rem;
+    font-family: "Oswald";
+    margin: 0;
+    color: greenyellow;
 }
 
 @media screen and (max-width: 600px) {
-  .title {
-    font-size: 4rem;
-    margin: 0 auto;
-    text-align: center;
-  }
+    .title {
+        font-size: 4rem;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .bannerContainer {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(rgb(68 0 88 / 83%), rgba(0, 0, 0, 0.692));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(68 0 88 / 83%), rgba(0, 0, 0, 0.692));
 }
 
 .profile {
-  height: 45vh;
-  width: 45vh;
-  margin: 30px;
-  border-radius: 50%;
-  background-image: url("../../../public/yo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  border: 2px white solid;
+    height: 45vh;
+    width: 45vh;
+    margin: 30px;
+    border-radius: 50%;
+    background-image: url("../../../public/yo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border: 2px white solid;
 }
 
 .textContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .linksContainer {
-  min-height: 6vh;
-  gap: 10px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 20px;
+    min-height: 6vh;
+    gap: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
 }

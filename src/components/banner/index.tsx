@@ -6,15 +6,29 @@ import { JsLogo } from "ui/jsvascript";
 import { motion } from "framer-motion";
 
 const Banner = () => {
-  return (
-    <div className={css.root}>
-      <div className={css.bannerContainer}>
-        <div className={css.textContainer}>
-          <h1 className={css.title}>{"<Fullstack Developer/>"}</h1>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.7 }}
+        >
+            <div className={css.root}>
+                <div className={css.bannerContainer}>
+                    <div className={css.textContainer}>
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 1 }}
+                        >
+                            <h1 className={css.title}>
+                                {"<Fullstack Developer/>"}
+                            </h1>
+                        </motion.div>
+                    </div>
+                </div>
+            </div>
+        </motion.div>
+    );
 };
 
 export { Banner };
