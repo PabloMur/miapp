@@ -12,7 +12,7 @@ const ContactContainer = () => {
             </div>
             <div className={css.contactContainer}>
                 <div className={css.links}>links</div>
-                <div className={css.form}>
+                <div className={`${css.form} relative`}>
                     <h3 className={css.formTitle}>Escribeme</h3>
                     <Loader />
                     <ContactForm />
