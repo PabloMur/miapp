@@ -6,7 +6,9 @@ const Loader = () => {
     const loaderStatus = useRecoilValue(loaderAtom);
 
     return loaderStatus ? (
-        <div className="absolute top-0 bottom-0 left-0 right-0">Cargando</div>
+        <div className="h-screen w-screen text-red-400">
+            <h3>Cargando ...</h3>
+        </div>
     ) : (
         <></>
     );

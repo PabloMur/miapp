@@ -1,15 +1,16 @@
 import React from "react";
 import css from "./styles.module.css";
 import StackMedall from "ui/stackMedall";
+import { CustomTitle } from "ui/CustomTitle";
 
 const StackContainer = () => {
     return (
         <>
             <div className={css.container}>
-                <h1 className={css.title}>Tecnologias que utilizo:</h1>
+                <CustomTitle>Tecnologias</CustomTitle>
             </div>
             <div className={css.stack}>
-                <StackMedall name="JavaScript"></StackMedall>
+                {/* <StackMedall name="JavaScript"></StackMedall>
                 <StackMedall name="RactJS"></StackMedall>
                 <StackMedall name="CSS"></StackMedall>
                 <StackMedall name="HTML5"></StackMedall>
@@ -27,7 +28,7 @@ const StackContainer = () => {
                 <StackMedall name="Sequelize"></StackMedall>
                 <StackMedall name="NextJS"></StackMedall>
                 <StackMedall name="Vercel"></StackMedall>
-                <StackMedall name="Heroku"></StackMedall>
+                <StackMedall name="Heroku"></StackMedall> */}
             </div>
         </>
     );

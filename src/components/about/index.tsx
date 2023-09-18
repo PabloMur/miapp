@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./styles.module.css";
 import { motion } from "framer-motion";
+import { CustomTitle } from "ui/CustomTitle";
 
 const AboutContainer = () => {
     return (
@@ -11,7 +12,7 @@ const AboutContainer = () => {
                 transition={{ duration: 0.7 }}
             >
                 <div className={css.root}>
-                    <h1>Acerca de Mi</h1>
+                    <CustomTitle>Acerca de Mi</CustomTitle>
                 </div>
             </motion.div>
             <motion.div

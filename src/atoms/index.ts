@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 export const loaderAtom = atom({
     key: "loaderAtom", // unique ID (with respect to other atoms/selectors)
-    default: false,
+    default: true,
 });
 
 export const desplegarMenuAtom = atom({
